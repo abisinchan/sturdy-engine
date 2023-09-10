@@ -1,0 +1,94 @@
+
+@font-face{
+    font-family: 'Poland Vaporwave';
+    src: url('./fonts/PolandCannedIntoVaporwave-YznP8.ttf') format('truetype');
+  }
+
+@font-face{
+    font-family: 'GB Shinto';
+    src: url('./fonts/GbshintoRegular-VMGx.otf') format('truetype');
+  }
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+}
+header{
+    width: 100%;
+    position: relative;
+
+    background-image: url(./img/manga.png);
+    background-position:bottom; /* Center the background image horizontally and vertically */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-size:cover;
+ 
+}
+
+/* nav */
+nav {
+    text-align: right; /* Align the entire navigation bar to the right */
+    padding: 20px;
+    border-bottom: 1px solid black;
+    background-color: #ffffffc7;
+}
+
+ nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block; /* Display list items horizontally */
+    margin-left: 20px; /* Add some spacing between menu items */
+    
+}
+
+nav ul li:first-child {
+    margin-left: 0; /* Remove left margin from the first menu item */
+}
+
+nav ul li a{
+  text-decoration: none;
+  font-size: 1.5rem; 
+  color: black;
+  transition: all 0.15ms;
+  font-family: 'GB Shinto',Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: chocolate;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 110, 255), 
+    0 0 5px darkblue; 
+  
+  }
+
+  nav ul li a:active{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+  
+  }
+
+/* banner */
+banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.logo{
+    margin: 50px 0;
+    font-family: "Poland Vaporwave", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 4.5rem;
+    color: chocolate;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 110, 255), 
+    0 0 5px darkblue; 
+}
