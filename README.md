@@ -26,14 +26,17 @@ https://myblog.shopen.pk/blog/trending-anime-cosplay-items-new-and-popular-costu
 Justin D.
 https://dallas.culturemap.com/news/entertainment/05-03-22-anime-wonder-fest-plano-mitsuwa-kinokuniya/
 
+anime manga header background
+https://moewalls.com/anime/manga-anime-collection-live-wallpaper/
+
 ## License
 MIT
 
 license: Freeware
 link: https://www.fontspace.com/poland-canned-into-vaporwave-font-f93952
 
-anime manga header background
-https://moewalls.com/anime/manga-anime-collection-live-wallpaper/
-
 license: Freeware
 link: https://www.fontspace.com/gb-shinto-font-f16658
+
+license: Freeware
+link: https://www.fontspace.com/a-assassin-ninja-font-f51018
