@@ -11,9 +11,12 @@ This is a social club website that supports the love of anime! It is just a mock
 N/A
 
 ## Usage
-
+N/A
+As mention earliar this is a just a mockup landing page of a social club called Anime Fanatic.
 
 ## Screen Shot
+![Screenshot 2023-09-11 030005](https://github.com/abisinchan/sturdy-engine/assets/132783183/4a261d41-ff1f-4b49-9fb7-8eee93c6e1d2)
+![Screenshot 2023-09-11 030416](https://github.com/abisinchan/sturdy-engine/assets/132783183/da491f41-396e-41c2-851e-07ee6f740e1f)
 
 
 ## Credits
