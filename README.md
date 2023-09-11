@@ -3,8 +3,7 @@ Anime Fanatic Responsive Club Website Project
 
 
 ## Description
-This is a social club website that supports the love of anime! 
-
+This is a social club website that supports the love of anime! It is just a mock up of a landing page and this page sole purpose is to demonstrate responsive layout. I used media queries and demonstrated the use of percentages and relative units such as rem.  
 
 
 ## Installation
@@ -40,3 +39,6 @@ link: https://www.fontspace.com/gb-shinto-font-f16658
 
 license: Freeware
 link: https://www.fontspace.com/a-assassin-ninja-font-f51018
+
+## Deployed Site
+https://abisinchan.github.io/sturdy-engine/
