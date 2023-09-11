@@ -21,11 +21,11 @@
 }
 body{
     font-size: 16px;
+    font-family: 'Assassin Ninja', Georgia, 'Times New Roman', Times, serif;
 }
 header{
     width: 100%;
     position: relative;
-
     background-image: url(./img/manga.png);
     background-position:bottom; /* Center the background image horizontally and vertically */
     background-repeat: no-repeat; /* Prevent the background image from repeating */
@@ -47,13 +47,10 @@ nav {
 
 nav ul li{
     display: inline-block; /* Display list items horizontally */
-    margin-left: 20px; /* Add some spacing between menu items */
+     margin-left: 20px; /*Add some spacing between menu items  */
     
 }
 
-nav ul li:first-child {
-    margin-left: 0; /* Remove left margin from the first menu item */
-}
 
 nav ul li a{
   text-decoration: none;
@@ -65,7 +62,6 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    text-decoration: none;
     font-size: 1.5rem;
     color: chocolate;
     text-shadow: 1px 1px 2px black, 0 0 25px #006eff, 
@@ -74,7 +70,6 @@ nav ul li a:hover{
   }
 
   nav ul li a:active{
-    text-decoration: none;
     font-size: 1.5rem;
     color: black;
   
@@ -111,7 +106,6 @@ h1{
     padding: 10px;
 }
 p, h2, h3{
-    font-family: 'Assassin Ninja', Georgia, 'Times New Roman', Times, serif;
     padding: 10px;
     text-align: center;
 }
@@ -140,6 +134,22 @@ p{
 }
 .groups ul{
     padding-left: 60px;
+    list-style-type:square;
+}
+.groups ul li a{
+    text-decoration: none;
+    color: #000;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.groups ul li a:hover{
+    color: chocolate;
+    text-shadow: 1px 1px 2px black, 0 0 25px #006eff, 
+    0 0 5px darkblue; 
+}
+.groups ul li a:active{
+    color: black;
+    
 }
 .discussions h3{
     text-align: left;
@@ -154,6 +164,8 @@ p{
 table {
     width: 100%;
     border-collapse: collapse;
+    padding: 10px;
+   
 }
 th, td {
     border: 1px solid #ddd;
@@ -163,6 +175,22 @@ th, td {
 th {
     background-color: #f2f2f2;
 }
+td{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+td a{
+    color: #000;
+}
+td a:hover{
+    color: chocolate;
+    text-shadow: 1px 1px 2px black, 0 0 25px #006eff, 
+    0 0 5px darkblue; 
+}
+
+td a:active{
+    color: black;
+}
+
 tr:hover {
     background-color: #f5f5f5;
 }
@@ -189,4 +217,48 @@ footer{
     padding:10px;
     border-top: 1px solid black;
     text-align: center;
+    font-weight: bold;
+    color: chocolate;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 110, 255), 
+    0 0 5px darkblue; 
 }
+
+@media only screen and (max-width: 629px){
+    nav ul li a{
+      font-size: 1rem;  
+    }
+    
+}
+@media only screen and (max-width: 510px){
+    .logo{
+      font-size: 2.5rem;  
+    }
+    
+}
+@media only screen and (max-width: 464px){
+
+nav, nav ul {
+    text-align: center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1, h2{
+    font-size: 1rem;
+}
+
+
+}
+@media only screen and (max-width: 425px){
+    p{
+        font-size: 1rem;
+    }
+    .socialContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    }
